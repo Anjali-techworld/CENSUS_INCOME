@@ -34,3 +34,21 @@ Converted categorical variables into numerical values using One-Hot Encoding.
 Feature Selection
 Applied Random Forest Classifier for feature selection to identify the most important predictors of income.
 Extracted feature importance scores, ranked the features, and selected the top features contributing significantly to the model's accuracy.
+In this analysis, 8 training models were used for performance evaluation. The models are:
+
+Logistic Regression
+Decision Tree Classifier
+Random Forest Classifier
+Gradient Boosting Classifier
+Support Vector Classifier (SVC)
+AdaBoost Classifier
+K-Nearest Neighbors (KNN) Classifier
+Bagging Classifier
+
+After evaluating the models using metrics such as Accuracy, Precision, Recall, and F1 Score, the Gradient Boosting Classifier emerged as the best-performing model based on its highest accuracy score.
+
+Further analysis was conducted on the Gradient Boosting Classifier to generate:
+
+Classification Report: A detailed breakdown of the model’s performance for each class, including metrics like precision, recall, and F1 score.
+ROC Curve: A graphical representation of the model’s performance, showing the trade-off between the true positive rate (TPR) and the false positive rate (FPR).
+Additionally, a bar plot visualization was created to compare the accuracy of all the models, highlighting the Gradient Boosting Classifier as the best model.
