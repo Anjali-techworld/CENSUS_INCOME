@@ -52,3 +52,7 @@ Further analysis was conducted on the Gradient Boosting Classifier to generate:
 Classification Report: A detailed breakdown of the model’s performance for each class, including metrics like precision, recall, and F1 score.
 ROC Curve: A graphical representation of the model’s performance, showing the trade-off between the true positive rate (TPR) and the false positive rate (FPR).
 Additionally, a bar plot visualization was created to compare the accuracy of all the models, highlighting the Gradient Boosting Classifier as the best model.
+Hyperparameter tuning is used to improve model performance. A pipeline is created based on the best model to predict future data. 
+The pipeline includes 10 features, and the unseen data from the file Income_unseen_data.csv is used for prediction."
+
+
